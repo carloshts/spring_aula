@@ -7,29 +7,26 @@ package com.henry.service;
 
 import com.henry.entity.Usuario;
 import com.henry.repository.UsuarioRepository;
-import java.util.ArrayList;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
 import org.springframework.stereotype.Service;
-/**
- *
- * @author Nataniel Paiva <nataniel.paiva@gmail.com>
- */
+
 @Service
 public class UsuarioService {
+    @Autowired 
+    private UsuarioRepository usuarioRepository;
     
-    @Autowired
-    UsuarioRepository usuarioRepository;
-    public List<Usuario> create(Usuario usuario){
+    public Usuario create(Usuario usuario){
         usuarioRepository.save(usuario);
-        List<Usuario> usuarioLista = (List<Usuario>) usuarioRepository.findAll();
-        return usuarioLista;
+        return usuario;
     }
     public List<Usuario> listaUsuario() {
-        List<Usuario> usuarioLista = (List<Usuario>) usuarioRepository.findAll();
-        return usuarioLista;
+        List<Usuario> usuarios = (List<Usuario>) usuarioRepository.findAll();
+        return usuarios;
 
+    }
+    public void deletaUsuario(Usuario usuario){
+        usuarioRepository.delete(id);
     }
 
     

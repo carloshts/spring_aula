@@ -7,14 +7,13 @@ package com.henry.repository;
 
 import com.henry.entity.Usuario;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author pc
  */
 
-@Repository
+
 public interface UsuarioRepository extends CrudRepository<Usuario, String> {
     
 }

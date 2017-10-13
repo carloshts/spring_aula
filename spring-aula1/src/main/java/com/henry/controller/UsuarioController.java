@@ -6,7 +6,6 @@
 package com.henry.controller;
 
 import com.henry.entity.Usuario;
-import com.henry.repository.UsuarioRepository;
 import com.henry.service.UsuarioService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,10 +27,11 @@ public class UsuarioController {
     @RequestMapping(value = "/usuario", method = RequestMethod.GET)
     public List<Usuario> listUsuario() {
         return this.usuarioService.listaUsuario();
+        
     }
 
     @RequestMapping(value = "/usuario", method = RequestMethod.POST)
-    public List<Usuario> createUsuario(@RequestBody Usuario usuario) {
+    public Usuario createUsuario(@RequestBody Usuario usuario) {
         
         return this.usuarioService.create(usuario);
     }
