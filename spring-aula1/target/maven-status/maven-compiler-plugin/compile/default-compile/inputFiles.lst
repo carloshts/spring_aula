@@ -1,6 +1,14 @@
-C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\controller\UsuarioController.java
+C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\config\OAuth2ServerConfiguration.java
 C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\entity\Usuario.java
+C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\repository\PerfilRepository.java
+C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\config\CargaInicial.java
 C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\service\UsuarioService.java
+C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\service\MeuUserDetailsService.java
 C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\Aplicacao.java
 C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\controller\IndexController.java
+C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\entity\Perfil.java
+C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\service\PerfilService.java
+C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\controller\UsuarioController.java
+C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\controller\PerfilController.java
+C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\config\WebSecurityConfiguration.java
 C:\Users\pc\Documents\NetBeansProjects\spring-aula1\spring-aula1\src\main\java\com\henry\repository\UsuarioRepository.java

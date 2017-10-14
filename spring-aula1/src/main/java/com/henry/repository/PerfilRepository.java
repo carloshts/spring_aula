@@ -5,18 +5,15 @@
  */
 package com.henry.repository;
 
-import com.henry.entity.Usuario;
-import java.util.List;
+import com.henry.entity.Perfil;
 import org.springframework.data.repository.CrudRepository;
 
 /**
  *
  * @author pc
  */
+public interface PerfilRepository extends CrudRepository<Perfil, Integer>{
+    Perfil findByNome(String nome);
 
-
-public interface UsuarioRepository extends CrudRepository<Usuario, Long> {
-    List<Usuario> findByNomeLikeIgnoreCase(String nome);
     
-    Usuario findByEmail(String email);
 }

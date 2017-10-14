@@ -24,9 +24,26 @@ public class UsuarioService {
         List<Usuario> usuarios = (List<Usuario>) usuarioRepository.findAll();
         return usuarios;
 
+        
     }
-    public void deletaUsuario(Usuario usuario){
+    public boolean verificaUsuario(long id){
+        return usuarioRepository.exists(id);
+    }
+    public Usuario procuraUsuario(long id){
+        Usuario usuario = usuarioRepository.findOne(id);
+        return usuario;
+    }
+    public Usuario alteraUsuario(long id,Usuario usuario){
+        usuario.setId(id);
+        if(this.verificaUsuario(id)){
+            
+            usuarioRepository.save(usuario);
+        }
+        return usuario;
+    }
+    public long deletaUsuario(long id){
         usuarioRepository.delete(id);
+        return id;
     }
 
     

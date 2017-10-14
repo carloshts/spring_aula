@@ -1,6 +1,0 @@
-com\henry\controller\UsuarioController.class
-com\henry\repository\UsuarioRepository.class
-com\henry\service\UsuarioService.class
-com\henry\controller\IndexController.class
-com\henry\Aplicacao.class
-com\henry\entity\Usuario.class
